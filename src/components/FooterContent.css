@@ -1,0 +1,99 @@
+.footer-form {
+   
+    padding: 50px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    
+}
+.footer-background{
+    height:470px;
+}
+.footer-background img{
+    height:inherit;
+    width:100%;
+}
+
+.footer-inputs{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.footer-form h2{
+    color:#fff;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+.footer-form p{
+    color:#fff;
+    text-align: center;
+    font-size: 18px;
+}
+.footer-inputs div{
+    width: 250px;
+    margin: 0 10px;
+}
+.footer-inputs input{
+    padding: 10px 40px 10px 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.footer-textarea, .submit-form{
+    justify-content: center;
+    margin-bottom: 20px;
+    display: flex;
+}
+.footer-textarea textarea{
+    padding: 10px;
+    border-radius: 5px;
+}
+.submit-form-btn{
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: #fff;
+    border-color: orangered;
+    background: orangered;
+    font-size: 18px;
+
+}
+@media only screen and (max-width:700px){
+    .footer-inputs{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        flex-wrap: wrap;
+    }
+    .footer-background{
+        height:600px;
+    }
+    .footer-inputs div{
+        flex-basis: 100%;
+        margin: 5px 10px;
+    }
+    .footer-form h2 {
+        margin: 10px 35px;
+    }
+    .footer-form p {
+        margin: 0 10%;
+    }
+    .footer-textarea, .submit-form {
+        justify-content: center;
+        margin-bottom: 20px;
+        display: flex;
+        margin: 0 10px;
+    }
+    .footer-textarea{
+        margin: 5px 10px 30px;
+    }
+}
