@@ -21,7 +21,7 @@ class HeaderContent extends Component {
         }}>
         <div className="bg-image"><img src={require("../assets/banner.jpg")} alt=""/></div>
        <div className="header-content">
-           <h1>This is the Title of the Page</h1>
+           <h1>My New Site</h1>
            <div className="header-boxes"> {
                      BOXES.map(BOXES => {
                     return(
